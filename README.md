@@ -1,2 +1,137 @@
 # my_course_page
 kalendář 2025
+
+<!DOCTYPE html>
+
+<html lang="cs">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <title>Přehled kurzu</title>
+
+  <style>
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      margin: 40px;
+
+      background-color: #f5f5f5;
+
+    }
+
+    h1 {
+
+      color: #2c3e50;
+
+    }
+
+    table {
+
+      border-collapse: collapse;
+
+      width: 100%;
+
+      background-color: white;
+
+    }
+
+    th, td {
+
+      border: 1px solid #ddd;
+
+      padding: 12px;
+
+      text-align: left;
+
+    }
+
+    th {
+
+      background-color: #3498db;
+
+      color: white;
+
+    }
+
+    tr:nth-child(even) {
+
+      background-color: #f9f9f9;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Přehled kurzu</h1>
+
+  <table>
+
+    <thead>
+
+      <tr>
+
+        <th>Událost</th>
+
+        <th>Datum začátku</th>
+
+        <th>Datum konce</th>
+
+        <th>Popis</th>
+
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr><td>1. den</td><td>17/06/2025</td><td>17/06/2025</td><td>Praha 😎</td></tr>
+
+      <tr><td>2. den</td><td>01/07/2025</td><td>01/07/2025</td><td>Praha 🤓</td></tr>
+
+      <tr><td>On-line lekce</td><td>07/07/2025</td><td>07/07/2025</td><td>On-line lekce 🖥️</td></tr>
+
+      <tr><td>3. den</td><td>15/07/2025</td><td>15/07/2025</td><td>Praha 🎉</td></tr>
+
+      <tr><td>4. den</td><td>29/07/2025</td><td>29/07/2025</td><td>Praha 🤩</td></tr>
+
+      <tr><td>On-line lekce</td><td>04/08/2025</td><td>04/08/2025</td><td>On-line lekce 📱</td></tr>
+
+      <tr><td>5. den</td><td>12/08/2025</td><td>12/08/2025</td><td>Praha 😜</td></tr>
+
+      <tr><td>6. den</td><td>26/08/2025</td><td>26/08/2025</td><td>Praha 😇</td></tr>
+
+      <tr><td>On-line lekce</td><td>08/09/2025</td><td>08/09/2025</td><td>On-line lekce 🤖</td></tr>
+
+      <tr><td>7.-8. den</td><td>11/09/2025</td><td>12/09/2025</td><td>Marketing v koučování 💼</td></tr>
+
+      <tr><td>On-line lekce</td><td>22/09/2025</td><td>22/09/2025</td><td>On-line lekce 🎧</td></tr>
+
+      <tr><td>On-line lekce</td><td>06/10/2025</td><td>06/10/2025</td><td>On-line lekce 🧑‍💻</td></tr>
+
+      <tr><td>9.-10. den</td><td>16/10/2025</td><td>17/10/2025</td><td>Praha 🏙️</td></tr>
+
+      <tr><td>On-line lekce</td><td>27/10/2025</td><td>27/10/2025</td><td>On-line lekce 📚</td></tr>
+
+      <tr><td>11.-12. den</td><td>13/11/2025</td><td>14/11/2025</td><td>Praha 🥳</td></tr>
+
+      <tr><td>On-line lekce</td><td>18/11/2025</td><td>18/11/2025</td><td>On-line lekce 🤩</td></tr>
+
+    </tbody>
+
+  </table>
+
+</body>
+
+</html>
+
+ 
+
+ 
+
