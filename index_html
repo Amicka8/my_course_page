@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transformační Kvantový Koučink | Mindset Numerologie</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+.gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+.card-hover { transition: all 0.3s ease; }
+.card-hover:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+.pulse-animation:hover { animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1;}50%{opacity:0.7;} }
+.floating:hover { animation: floating 3s ease-in-out infinite; }
+@keyframes floating { 0%,100%{transform:translateY(0px);}50%{transform:translateY(-10px);} }
+/* GDPR Banner */
+#gdpr-banner { position: fixed; bottom: 0; left: 0; right: 0; background-color: rgba(31, 41, 55, 0.95); color: #f9fafb; z-index: 50; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; padding: 1rem; transition: transform 0.3s ease; transform: translateY(100%); }
+#gdpr-banner.show { transform: translateY(0); }
+</style>
+</head>
+<body class="bg-gray-50">
+
+<!-- Hero Section -->
+<section class="gradient-bg text-white py-16 md:py-24 px-4 md:px-6">
+<div class="max-w-4xl mx-auto text-center">
+<div class="floating mb-8" aria-label="Symbol transformace">
+<div class="text-3xl md:text-4xl mb-4">🌟 🚗➡️🏎️</div>
+</div>
+<h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+<span class="text-yellow-300">Transformační Koučink</span><br>
+<span class="text-white">& Mindset Numerologie</span>
+</h1>
+<p class="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto">
+Intuitivní vzorce • Důležité souvislosti • Jasné řešení
+</p>
+<div class="bg-white/15 backdrop-blur-sm rounded-2xl p-6 md:p-8 mb-10 max-w-2xl mx-auto">
+<div class="flex items-center justify-center mb-4">
+<div class="text-3xl mr-3" aria-label="Koruna">👑</div>
+<h3 class="text-xl md:text-2xl font-bold text-yellow-300">18 let praxe s V.I.P. klienty</h3>
+</div>
+<p class="text-yellow-200 font-semibold">
+Stránka obsahuje 20% informací, které vedou k výsledku
+</p>
+</div>
+</div>
+</section>
+
+<main>
+<!-- Services Section -->
+<section id="sluzby" class="py-8 px-4 bg-white">
+<div class="max-w-5xl mx-auto">
+<h2 class="text-2xl md:text-3xl font-bold text-center mb-6 md:mb-8 text-gray-800">Moje služby</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+
+<div class="card-hover bg-gradient-to-br from-pink-50 to-purple-50 rounded-lg p-3 md:p-4 text-center border border-pink-100" aria-label="Ochutnávka 15 minut zdarma">
+<div class="text-2xl mb-2" aria-hidden="true">🎁</div>
+<h3 class="text-sm md:text-lg font-bold mb-2 text-pink-800">Ochutnávka</h3>
+<div class="text-lg md:text-xl font-bold text-pink-600 mb-1">15 min</div>
+<div class="text-sm md:text-lg font-bold text-green-600 mb-2">ZDARMA</div>
+<p class="text-xs md:text-sm text-gray-600 mb-3">Seznámení s přístupem</p>
+</div>
+
+<div class="card-hover bg-gradient-to-br from-purple-50 to-blue-50 rounded-lg p-3 md:p-4 text-center border border-purple-100" aria-label="Jasný záměr 1 hodina 8 000 Kč">
+<div class="text-2xl mb-2" aria-hidden="true">⚡</div>
+<h3 class="text-sm md:text-lg font-bold mb-2 text-purple-800">Jasný záměr</h3>
+<div class="text-lg md:text-xl font-bold text-purple-600 mb-1">1 hodina</div>
+<div class="text-sm md:text-lg font-bold text-purple-800 mb-2">8 000 Kč</div>
+<p class="text-xs md:text-sm text-gray-600 mb-3">Rychlá analýza a plán</p>
+</div>
+
+<div class="card-hover bg-gradient-to-br from-yellow-50 to-orange-50 rounded-lg p-3 md:p-4 text-center border-2 border-yellow-300 relative" aria-label="Intenzivní 6 hodin 30 000 Kč">
+<div class="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-purple-900 px-2 py-0.5 rounded-full text-xs font-bold">TOP</div>
+<div class="text-2xl mb-2" aria-hidden="true">🎯</div>
+<h3 class="text-sm md:text-lg font-bold mb-2 text-orange-800">Intenzivní</h3>
+<div class="text-lg md:text-xl font-bold text-orange-600 mb-1">6 hodin</div>
+<div class="text-sm md:text-lg font-bold text-orange-800 mb-2">30 000 Kč</div>
+<p class="text-xs md:text-sm text-gray-600 mb-3">Hluboká práce na tématu</p>
+</div>
+
+<div class="card-hover bg-gradient-to-br from-green-50 to-teal-50 rounded-lg p-3 md:p-4 text-center border border-green-100" aria-label="Proměna 3 měsíce 80 000 Kč">
+<div class="text-2xl mb-2" aria-hidden="true">🌱</div>
+<h3 class="text-sm md:text-lg font-bold mb-2 text-green-800">Proměna</h3>
+<div class="text-lg md:text-xl font-bold text-green-600 mb-1">3 měsíce</div>
+<div class="text-sm md:text-lg font-bold text-green-800 mb-2">80 000 Kč</div>
+<p class="text-xs md:text-sm text-gray-600 mb-3">Kompletní program</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Contact Section s WhatsApp -->
+<section id="kontakt" class="py-12 px-4 gradient-bg text-white">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="text-3xl md:text-4xl font-bold mb-6 md:mb-8">Začni svou změnu už dnes</h2>
+<p class="text-lg md:text-xl mb-8 md:mb-12">
+Každá změna začíná jedním krokem. Udělej ho právě teď.
+</p>
+<div class="bg-white/20 backdrop-blur-sm rounded-lg p-6 max-w-lg mx-auto">
+<p class="text-xl mb-4">📧 <strong>Email:</strong> <a href="mailto:advancemagics@gmail.com" class="underline hover:text-yellow-300">advancemagics@gmail.com</a></p>
+<a href="https://wa.me/420774197005" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition-colors" aria-label="Napsat na WhatsApp">
+📱 Napsat na WhatsApp
+</a>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-8 px-6">
+<div class="max-w-6xl mx-auto text-center space-y-4">
+<div class="text-2xl font-bold mb-2">🚗➡️🏎️ Transformační Kvantový Koučink</div>
+<p class="text-gray-400">Stránka obsahuje 20% informací, které vedou k výsledku • Každá změna začíná jedním krokem</p>
+<div class="space-x-4">
+<a href="#gdpr" class="underline hover:text-yellow-300">GDPR</a> | 
+<a href="#podminky" class="underline hover:text-yellow-300">Obchodní podmínky</a>
+</div>
+<p class="text-sm text-gray-500">© 2024 Kvantový Koučink. Všechna práva vyhrazena.</p>
+</div>
+</footer>
+
+<!-- GDPR Section -->
+<section id="gdpr" class="bg-gray-900 text-gray-200 py-6 px-4 mt-8">
+<div class="max-w-4xl mx-auto">
+<h3 class="text-base md:text-sm font-bold mb-2">GDPR</h3>
+<p class="text-xs md:text-xs mb-2">
+Vaše osobní údaje jsou zpracovávány v souladu s obecnými nařízeními o ochraně osobních údajů (GDPR). Kontaktní údaje poskytované prostřednictvím emailu nebo WhatsApp jsou používány výhradně pro komunikaci a nejsou sdíleny třetím stranám.
+</p>
+</div>
+</section>
+
+<!-- Obchodní podmínky Section -->
+<section id="podminky" class="bg-gray-900 text-gray-200 py-6 px-4 mt-4">
+<div class="max-w-4xl mx-auto space-y-2">
+<h3 class="text-base md:text-sm font-bold mb-2">Obchodní podmínky</h3>
+<p class="text-xs md:text-xs">1. Veškeré služby nabízené na této stránce jsou poskytovány na základě individuální dohody mezi poskytovatelem služeb a klientem.</p>
+<p class="text-xs md:text-xs">2. Ceny služeb uvedené na stránce jsou konečné a zahrnují DPH. Poskytovatel si vyhrazuje právo ceny aktualizovat.</p>
+<p class="text-xs md:text-xs">3. Platba za služby probíhá předem nebo dle individuální dohody. Doklad o platbě slouží jako potvrzení sjednané služby.</p>
+<p class="text-xs md:text-xs">4. Po zakoupení služeb není možné vrátit poskytnuté konzultace ani jiné služby, pokud nebyla sjednána náhradní schůzka nebo dohoda s poskytovatelem.</p>
+<p class="text-xs md:text-xs">5. Poskytovatel nenese odpovědnost za výsledky služby, které závisí na spolupráci a aktivní účasti klienta.</p>
+<p class="text-xs md:text-xs">6. Klient souhlasí se zpracováním osobních údajů poskytnutých v rámci služeb v souladu s GDPR (viz sekce GDPR).</p>
+<p class="text-xs md:text-xs">7. Tyto obchodní podmínky jsou platné od okamžiku zveřejnění na webových stránkách poskytovatele.</p>
+</div>
+</section>
+
+<!-- GDPR Banner -->
+<div id="gdpr-banner">
+  <p class="text-sm md:text-sm flex-1 mb-2 md:mb-0">
+    Používáme cookies a osobní údaje pro zlepšení vašeho zážitku na stránce. Kliknutím na 
+    <a href="#gdpr" class="underline text-yellow-300">zásady ochrany osobních údajů</a> souhlasíte s jejich používáním.
+  </p>
+  <button id="gdpr-accept" class="bg-yellow-400 text-gray-900 font-bold py-2 px-4 rounded hover:bg-yellow-300">
+    Souhlasím
+  </button>
+</div>
+
+<script>
+// GDPR banner
+const gdprBanner = document.getElementById('gdpr-banner');
+if(!localStorage.getItem('gdprAccepted')){
+    gdprBanner.classList.add('show');
+}
+document.getElementById('gdpr-accept').addEventListener('click', function(){
+    localStorage.setItem('gdprAccepted', 'true');
+    gdprBanner.classList.remove('show');
+});
+</script>
+
+</body>
+</html>
